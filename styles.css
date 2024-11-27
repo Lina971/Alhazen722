@@ -10,7 +10,7 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: #333;
+    background-color: Darkblue;
     color: white;
     padding: 10px 0;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #ffd700;
+    color:  DarkGoldenRod;
 }
 
 /* Conteneur principal */
@@ -61,12 +61,13 @@ h1, h2 {
 
 h1 {
     font-size: 2.5em;
-    color: #333;
+    color: Darkblue;
+    text-shadow: 2px 2px 5px gray; 
 }
 
 h2 {
     font-size: 2em;
-    color: #444;
+    color: DarkGoldenRod;
     border-bottom: 2px solid #ddd;
     display: inline-block;
     padding-bottom: 5px;
@@ -80,13 +81,13 @@ table {
 }
 
 table th, table td {
-    border: 1px solid #ddd;
+    border: 1px solid SaddleBrown;
     padding: 8px;
     text-align: left;
 }
 
 table th {
-    background: #f4f4f4;
+    background: DarkGoldenRod;
     font-weight: bold;
 }
 
@@ -125,14 +126,14 @@ img {
 
 /* Footer */
 footer {
-    background: #333;
+    background: DarkBlue;
     color: #fff;
     padding: 10px;
     text-align: center;
 }
 
 footer a {
-    color: #ffd700;
+    color: Red;
     text-decoration: none;
 }
 
